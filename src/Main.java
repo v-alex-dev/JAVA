@@ -6,7 +6,6 @@ import DYMA.Pendu.PenduGame;
 public class Main {
     public static void main(String[] args) {
         var pendu = new PenduGame();
-
-
+            pendu.start();
     }
 }
