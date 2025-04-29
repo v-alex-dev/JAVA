@@ -22,6 +22,14 @@ public class GuessGame {
         }
     }
 
+    public static boolean isLost() {
+        return false;
+    }
+
+    public boolean isWin() {
+        return true;
+    }
+
     @Override
     public String toString() {
         return "GuessGame{" +
@@ -29,4 +37,5 @@ public class GuessGame {
                 ", guessWord=" + guessWord +
                 '}';
     }
+
 }
